@@ -1,21 +1,5 @@
 [
   {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "predicates": {
-            "minecraft:custom_data": {
-              "custom_id": "disabletrial:key",
-              "dt_key_level": "netherite"
-            }
-          }
-        }
-      }
-    }
-  },
-  {
     "condition": "minecraft:any_of",
     "terms": [
       {
