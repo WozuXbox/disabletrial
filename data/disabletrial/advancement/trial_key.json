@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "disabletrial:obtain_trial_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:trial_key"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "disabletrial:crafting/copper_key"
+    ]
+  }
+}

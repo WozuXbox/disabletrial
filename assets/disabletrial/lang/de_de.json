@@ -1,0 +1,15 @@
+{
+    "item.disabletrial.trial_key.copper": "Kupferner Spawnerschlüssel",
+    "item.disabletrial.trial_key.diamond": "Diamantspawnerschlüssel",
+    "item.disabletrial.trial_key.netherite": "Netheritspawnerschlüssel",
+    "message.chat.disabletrial.message.message": "Um diese Nachrichten auszuschalten, kannst du entweder",
+    "message.chat.disabletrial.message.or": " ausführen oder",
+    "message.chat.disabletrial.message.click": " hier klicken!",
+    "message.chat.disabletrial.check.warn.codefailed": "Es wurde kein Spawner gefunden, obwohl anderer Teil des Codes das tat. Dies ist ein Fehler.",
+    "message.chat.disabletrial.check.warn.unlocked": "Der deaktivierte Spawner wird aktiviert...",
+    "message.chat.disabletrial.check.warn.cooldown": "Dieser Spawner ist nicht in der Cooldownphase. Besiege erst alle Monster!",
+    "message.chat.disabletrial.check.warn.success": "Spawner wird deaktiviert...",
+    "message.chat.disabletrial.check.warn.ominous": "Dieser Spawner ist nicht unheilvoll, wird aber dennoch deaktiviert. Sei dir bewusst, dass nicht-unheilvolle Spawner sich reaktivieren, sobald ein Spieler in der Nähe den \"Drohende Prüfung\"-Effekt besitzt.",
+    "message.chat.disabletrial.unlock.success": "Der Spawner wurde reaktiviert und sollte in 5 Minuten bereit für weitere Kämpfe sein!",
+    "message.chat.disabletrial.unlock.fail": "Etwas ist schiefgegangen, während der Spawner reaktiviert wurde. Dies ist ein Fehler."
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "disabletrial:obtain_trial_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ominous_trial_key"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "disabletrial:crafting/diamond_key",
+      "disabletrial:crafting/netherite_key"
+    ]
+  }
+}

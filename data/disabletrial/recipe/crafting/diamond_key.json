@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aca",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:ominous_trial_key"
+    },
+    "c": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:trial_key",
+    "components": {
+      "minecraft:custom_model_data": 305002,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 999999999
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "custom_id": "disabletrial:key",
+        "dt_key_level": "diamond"
+      },
+      "minecraft:item_name": "{\"fallback\": \"Diamond Spawner Key\",\"italic\": false,\"translate\": \"item.disabletrial.trial_key.diamond\"}",
+      "minecraft:max_damage": 10,
+      "minecraft:damage": 0
+    },
+    "count": 1
+  }
+}

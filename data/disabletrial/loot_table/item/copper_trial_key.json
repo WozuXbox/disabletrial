@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 305001,
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 999999999
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 2,
+                "minecraft:custom_data": {
+                  "custom_id": "disabletrial:key",
+                  "dt_key_level": "copper"
+                },
+                "minecraft:item_name": "{\"fallback\": \"Copper Spawner Key\",\"italic\": false,\"translate\": \"item.disabletrial.trial_key.copper\"}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

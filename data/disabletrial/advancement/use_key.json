@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "disabletrial:click": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:trial_key",
+          "predicates": {
+            "minecraft:custom_data": {
+              "custom_id": "disabletrial:key"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "disabletrial:startraycast"
+  }
+}

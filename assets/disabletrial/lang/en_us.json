@@ -1,0 +1,15 @@
+{
+    "item.disabletrial.trial_key.copper": "Copper Spawner Key",
+    "item.disabletrial.trial_key.diamond": "Diamond Spawner Key",
+    "item.disabletrial.trial_key.netherite": "Netherite Spawner Key",
+    "message.chat.disabletrial.message.message": "To disable these messages, run",
+    "message.chat.disabletrial.message.or": " or",
+    "message.chat.disabletrial.message.click": " Click here!",
+    "message.chat.disabletrial.check.warn.codefailed": "No spawner found, although raycast did. This shouldn't happen.",
+    "message.chat.disabletrial.check.warn.unlocked": "Found locked spawner, unlocking...",
+    "message.chat.disabletrial.check.warn.cooldown": "This spawner isn't on cooldown.",
+    "message.chat.disabletrial.check.warn.success": "Spawner detected, locking...",
+    "message.chat.disabletrial.check.warn.ominous": "This spawner isn't ominous. This is only a warning, as disabled ominous spawners can be reactivated when a player with trial omen is nearby.",
+    "message.chat.disabletrial.unlock.success": "The spawner was unlocked and should be ready in about 5 minutes.",
+    "message.chat.disabletrial.unlock.fail": "Something in the process of unlocking the spawner failed."
+}
