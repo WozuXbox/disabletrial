@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=dt.marker] at @s unless block ~ ~ ~ minecraft:trial_spawner[trial_spawner_state=cooldown] run function disabletrial:unlock_marker
+execute as @e[type=marker,tag=dt.marker] at @s unless block ~ ~ ~ minecraft:trial_spawner[trial_spawner_state=cooldown] run function disabletrial:core_mechanic/unlock/unlock_marker
