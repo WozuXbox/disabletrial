@@ -13,5 +13,10 @@
   "depends": {
     "fabricloader": ">=0.14.21",
     "minecraft": ">=1.21.0 <1.21.3"
+  },
+  "entrypoints": {
+    "main": [
+      "de.wozuxbox.disabletrial.main.DisableTrialSpawners"
+    ]
   }
 }
