@@ -1,7 +1,7 @@
 package de.wozuxbox.disabletrial;
 
 import net.fabricmc.api.ModInitializer;
-
+import de.wozuxbox.disabletrial.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,7 +18,7 @@ public class DisableTrialSpawners implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+		ModItems.initialize();
 		LOGGER.info("Disabletrial activated");
 	}
 }
