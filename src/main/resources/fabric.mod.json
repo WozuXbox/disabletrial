@@ -1,18 +1,17 @@
 {
 	"schemaVersion": 1,
 	"id": "disabletrial",
-	"version": "${version}",
+	"version": "0.1.2.1",
 	"name": "Disable Trial Spawners",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "temporarily disable trial spawners",
 	"authors": [
-		"Me!"
+		"WozuXbox"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/WozuXbox/disabletrial"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/disabletrial/icon.png",
+	"license": "LGPL-3.0-or-later",
+	"icon": "assets/disabletrial/pack.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -27,7 +26,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21",
+		"minecraft": ">=1.21.0 <1.21.3",
 		"java": ">=21",
 		"fabric-api": "*"
 	}
