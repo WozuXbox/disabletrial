@@ -4,4 +4,4 @@ execute if score @s dt.hand matches 2 run item modify entity @s weapon.offhand d
 #break item if needed
 execute unless predicate disabletrial:40broken run return 1
 playsound minecraft:entity.item.break player @s
-clear @s minecraft:trial_key[damage=40,custom_data={custom_id:"disabletrial:key",dt_key_level:"netherite"}] 1
+clear @s disabletrial:netherite_spawner_key[damage=40] 1

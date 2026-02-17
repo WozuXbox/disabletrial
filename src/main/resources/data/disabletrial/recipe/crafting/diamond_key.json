@@ -18,9 +18,8 @@
     }
   },
   "result": {
-    "id": "minecraft:trial_key",
+    "id": "disabletrial:diamond_spawner_key",
     "components": {
-      "minecraft:custom_model_data": 305002,
       "minecraft:food": {
         "nutrition": 0,
         "saturation": 0,
@@ -33,7 +32,6 @@
         "custom_id": "disabletrial:key",
         "dt_key_level": "diamond"
       },
-      "minecraft:item_name": "{\"fallback\": \"Diamond Spawner Key\",\"italic\": false,\"translate\": \"item.disabletrial.trial_key.diamond\"}",
       "minecraft:max_damage": 10,
       "minecraft:damage": 0
     },

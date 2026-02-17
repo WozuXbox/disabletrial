@@ -8,12 +8,7 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "custom_id": "disabletrial:key",
-                   "dt_key_level": "netherite"
-                }
-              }
+              "items": "disabletrial:netherite_spawner_key"
             }
           }
         }
@@ -34,12 +29,7 @@
             "predicate": {
               "equipment": {
                 "offhand": {
-                  "predicates": {
-                    "minecraft:custom_data": {
-                      "custom_id": "disabletrial:key",
-                      "dt_key_level": "netherite"
-                    }
-                  }
+                  "items": "disabletrial:netherite_spawner_key"
                 }
               }
             }

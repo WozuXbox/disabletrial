@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "disabletrial:diamond_spawner_key"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "result": {
+    "id": "disabletrial:netherite_spawner_key",
+    "components": {
+      "minecraft:max_damage": 40,
+      "minecraft:custom_data": {
+        "custom_id": "disabletrial:key",
+        "dt_key_level": "netherite"
+      }
+    }
+  }
+}

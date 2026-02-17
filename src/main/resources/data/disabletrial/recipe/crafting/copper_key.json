@@ -15,9 +15,8 @@
     }
   },
   "result": {
-    "id": "minecraft:trial_key",
+    "id": "disabletrial:copper_spawner_key",
     "components": {
-      "minecraft:custom_model_data": 305001,
       "minecraft:food": {
         "nutrition": 0,
         "saturation": 0,
@@ -29,8 +28,7 @@
       "minecraft:custom_data": {
         "custom_id": "disabletrial:key",
         "dt_key_level": "copper"
-      },
-      "minecraft:item_name": "{\"fallback\": \"Copper Spawner Key\",\"italic\": false,\"translate\": \"item.disabletrial.trial_key.copper\"}"
+      }
     },
     "count": 2
   }
