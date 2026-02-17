@@ -32,7 +32,7 @@ public class ModItems {
 		"netherite_spawner_key"
 	);
 	public static void initialize() {
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS)
-		.register((itemGroup) -> itemGroup.add(ModItems.COPPER_SPAWNER_KEY));
+		//Not currently needed as Items shouldn't appear in Creative Inventory right now
+		//ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register((itemGroup) -> itemGroup.add(ModItems.COPPER_SPAWNER_KEY));
 	}
 }
