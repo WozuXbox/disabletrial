@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import de.wozuxbox.disabletrial.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import net.minecraft.client.render.block.entity.TrialSpawnerBlockEntityRenderer;
 
 public class DisableTrialSpawners implements ModInitializer {
 	public static final String MOD_ID = "disabletrial";
