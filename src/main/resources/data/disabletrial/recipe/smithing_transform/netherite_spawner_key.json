@@ -10,14 +10,6 @@
     "item": "minecraft:netherite_upgrade_smithing_template"
   },
   "result": {
-    "id": "disabletrial:netherite_spawner_key",
-    "components": {
-      "minecraft:max_damage": 40,
-      "minecraft:custom_data": {
-        "custom_id": "disabletrial:key",
-        "dt_key_level": "netherite"
-      },
-      "minecraft:max_stack_size": 1
-    }
+    "id": "disabletrial:netherite_spawner_key"
   }
 }

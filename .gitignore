@@ -1,5 +1,11 @@
 .datapack
 .old_versions
+TrialSpawnerBlock.txt
+TrialSpawnerData.txt
+TrialSpawnerLogic.txt
+TrialSpawnerState.txt
+TRialSpawnerBLockEntity.txt
+README.aiinfo.txt
 # gradle
 
 .gradle/

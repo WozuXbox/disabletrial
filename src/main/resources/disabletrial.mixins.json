@@ -2,7 +2,12 @@
 	"required": true,
 	"package": "de.wozuxbox.disabletrial.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": ["TrialSpawnerBlockMixin"],
+	"mixins": [
+		"BlockAccessor",
+		"TrialSpawnerBlockMixin",
+		"TrialSpawnerDataAccessor",
+		"TrialSpawnerStateMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},

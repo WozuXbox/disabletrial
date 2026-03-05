@@ -1,4 +1,4 @@
-package de.wozuxbox.disabletrial;
+package de.wozuxbox.disabletrial.mixin;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -10,9 +10,6 @@ import org.spongepowered.asm.mixin.gen.Invoker;
 
 @Mixin(Block.class)
 public interface BlockAccessor {
-    @Accessor("stateManager")
-    StateManager<Block, BlockState> getStateManager();
-
     @Invoker("setDefaultState")
     void invokeSetDefaultState(BlockState state);
 }

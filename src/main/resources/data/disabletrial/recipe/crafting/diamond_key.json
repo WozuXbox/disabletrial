@@ -19,22 +19,6 @@
   },
   "result": {
     "id": "disabletrial:diamond_spawner_key",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 0,
-        "saturation": 0,
-        "can_always_eat": true,
-        "eat_seconds": 999999999
-      },
-      "minecraft:enchantment_glint_override": true,
-      "minecraft:max_stack_size": 1,
-      "minecraft:custom_data": {
-        "custom_id": "disabletrial:key",
-        "dt_key_level": "diamond"
-      },
-      "minecraft:max_damage": 10,
-      "minecraft:damage": 0
-    },
     "count": 1
   }
 }
