@@ -34,19 +34,4 @@ public abstract class TrialSpawnerBlockMixin extends Block {
 		BlockAccessor accessor = (BlockAccessor)block;
 		accessor.invokeSetDefaultState(block.getDefaultState().with(DisableTrialBlockProperties.DISABLED, false));
 	}
-
-	@Override
-	public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {
-		super.randomDisplayTick(state, world, pos, random);
-
-		if (state.contains(DisableTrialBlockProperties.DISABLED)
-				&& state.get(DisableTrialBlockProperties.DISABLED)) {
-			// Spawn soul fire flames floating upward from the spawner
-			double x = pos.getX() + 0.5 + (random.nextDouble() - 0.5) * 0.6;
-			double y = pos.getY() + 0.5 + random.nextDouble() * 0.5;
-			double z = pos.getZ() + 0.5 + (random.nextDouble() - 0.5) * 0.6;
-
-			world.addParticle(ParticleTypes.SOUL_FIRE_FLAME, x, y, z, 0.0, 0.02, 0.0);
-		}
-	}
 }
