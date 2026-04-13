@@ -21,24 +21,22 @@ public class ModItems {
 	}
 	public static final Item COPPER_SPAWNER_KEY = register(
 		new SpawnerKeyItem(new Item.Settings()
-			.maxDamage(2)
-			.component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)),
+			.maxDamage(2)),
 		"copper_spawner_key"
 	);
 	public static final Item DIAMOND_SPAWNER_KEY = register(
 		new SpawnerKeyItem(new Item.Settings()
-			.maxDamage(10)
-			.component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)),
+			.maxDamage(10)),
 		"diamond_spawner_key"
 	);
 	public static final Item NETHERITE_SPAWNER_KEY = register(
 		new SpawnerKeyItem(new Item.Settings()
-			.maxDamage(40)
-			.component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)),
+			.maxDamage(40)),
 		"netherite_spawner_key"
 	);
 	public static void initialize() {
-		//Not currently needed as Items shouldn't appear in Creative Inventory right now
-		//ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register((itemGroup) -> itemGroup.add(ModItems.COPPER_SPAWNER_KEY));
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register((itemGroup) -> itemGroup.add(ModItems.COPPER_SPAWNER_KEY));
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register((itemGroup) -> itemGroup.add(ModItems.DIAMOND_SPAWNER_KEY));
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register((itemGroup) -> itemGroup.add(ModItems.NETHERITE_SPAWNER_KEY));
 	}
 }

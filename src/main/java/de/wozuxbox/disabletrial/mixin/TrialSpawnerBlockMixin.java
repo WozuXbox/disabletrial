@@ -28,7 +28,7 @@ public abstract class TrialSpawnerBlockMixin extends Block {
 		builder.add(DisableTrialBlockProperties.DISABLED);
 	}
 
-	@Inject(at=@At("RETURN"),method="<init>")
+	@Inject(at= @At(value = "RETURN"),method="<init>")
 	private void onTrialSpawnerBlock(AbstractBlock.Settings settings, CallbackInfo ci) {
 		Block block = (Block)(Object)this;
 		BlockAccessor accessor = (BlockAccessor)block;

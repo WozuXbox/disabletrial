@@ -1,0 +1,124 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "disabletrial:copper_spawner_key",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "custom_id": "disabletrial:key",
+                  "dt_key_level": "copper"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_item",
+    "item": "disabletrial:diamond_spawner_key",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "custom_id": "disabletrial:key",
+                  "dt_key_level": "diamond"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_item",
+    "item": "disabletrial:netherite_spawner_key",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "custom_id": "disabletrial:key",
+                  "dt_key_level": "netherite"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:damage": 1
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "offhand": {
+                  "count": 1
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "predicates": {
+                        "minecraft:custom_data": {
+                          "custom_id": "disabletrial:key",
+                          "dt_key_level": "copper"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "items": "disabletrial:copper_spawner_key"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

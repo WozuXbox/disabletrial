@@ -1,17 +1,18 @@
 [
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "offhand": {
-          "items": [
-            "disabletrial:copper_spawner_key",
-            "disabletrial:diamond_spawner_key",
-            "disabletrial:netherite_spawner_key"
-          ]
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:trial_key",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "custom_id": "disabletrial:key"
+                }
+              }
+            }
+          }
         }
-      }
     }
-  }
 ]

@@ -1,2 +1,0 @@
-summon minecraft:marker ~ ~ ~ {Tags:["fresh","dt","dt.marker","dt.version1.21"]}
-execute as @n[type=marker, tag=dt, tag=fresh, limit=1, sort=nearest, distance=0..0.00001] run return run function disabletrial:core_mechanic/summon/marker_summon

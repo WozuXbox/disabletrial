@@ -33,7 +33,8 @@ public class SpawnerKeyItem extends Item {
             return ActionResult.PASS;
         }
 
-        if (!world.isClient()) {
+        if (!world.isClient() && context.getPlayer() != null) {
+            context.getPlayer().getItemCooldownManager().set(this, 20);
             boolean disabled = blockState.get(DisableTrialBlockProperties.DISABLED);
             TrialSpawnerState spawnerState = blockState.get(TrialSpawnerBlock.TRIAL_SPAWNER_STATE);
 
